@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Agenda com Layout Dinâmico</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="formulario" id="formulario">
+      <div class="formulario-inner">
+        <div class="sep">
+          <img src="imagens/usuario_borda.png" alt="Imagem de icone de usuário com borda" />
+          <h3>ADICIONAR CONTATOS</h3>
+        </div>
+        <label class="textos">Nome</label>
+        <input type="text" id="nome" placeholder="Escreva aqui...">
+        <label class="textos">Telefone</label>
+        <input type="tel" id="telefone" placeholder="(00) 0 0000-0000">
+        <div class="sep">
+          <button onclick="adicionarContato()">SALVAR</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="resizer" id="resizer"></div>
+
+    <div class="contatos" id="listaContatos">
+      <h3 style="width: 100%; text-align: center; margin-bottom: 10px;">CONTATOS SALVOS</h3>
+    </div>
+  </div>
+
+  <script>
+    
+  </script>
+
+</body>
+</html>
